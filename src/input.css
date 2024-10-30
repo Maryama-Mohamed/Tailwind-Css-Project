@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .card{
+        @apply  flex-1 border  border-slate-400 rounded-lg p-12;
+    }
+    .subtitle{
+        @apply text-center text-2xl text-blue-700;
+    }
+    .title{
+        @apply text-center text-5xl text-white font-bold
+    }
+}

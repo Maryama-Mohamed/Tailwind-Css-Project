@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Css Practice Project</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-slate-800">
+    <nav class="w-[1300px] h-24 flex mx-auto justify-between items-center w">
+      <img
+        class="w-18 h-20 rounded-full border border-white mt-2"
+        src="/images/profile_img.jpg"
+      />
+      <div>
+        <ul class="flex space-x-5">
+          <li>
+            <a class="text-white hover:text-blue-300 text-sm" href="#">HOME</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-blue-300 text-sm" href="#"
+              >FEATURES</a
+            >
+          </li>
+          <li>
+            <a class="text-white hover:text-blue-300 text-sm" href="#"
+              >PORTFOLIO</a
+            >
+          </li>
+          <li>
+            <a class="text-white hover:text-blue-300 text-sm" href="#"
+              >RESUME</a
+            >
+          </li>
+          <li>
+            <a class="text-white hover:text-blue-300 text-sm" href="#"
+              >TESTMONIAL</a
+            >
+          </li>
+          <li>
+            <a class="text-white hover:text-blue-300 text-sm" href="#"
+              >CLIENTS</a
+            >
+          </li>
+          <li>
+            <a class="text-white hover:text-blue-300 text-sm" href="#"
+              >PRICING</a
+            >
+          </li>
+          <li>
+            <a class="text-white hover:text-blue-300 text-sm" href="#">BLOG</a>
+          </li>
+        </ul>
+      </div>
+      <button
+        class="bg-blue-700 text-white hover:bg-indigo-900 px-12 py-4 rounded-full transition hover:translate-y-4 mt-2"
+      >
+        HIRE ME
+      </button>
+    </nav>
+    <div class="bg-slate-900 py-5">
+      <div class="w-[1300px] mx-auto justify-between items-center flex">
+        <div id="content" class="flex-1">
+          <h1 class="text-5xl text-white font-bold leading-tight">
+            Hi, I'm <span class="text-blue-500">Mohamed</span> A Professional
+            UI/UX and Developer
+          </h1>
+          <p class="text-lg text-white my-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
+            velit eget neque ullamcorper, id sagittis lacus bibendum. Donec
+            sodales
+          </p>
+          <div class="flex space-x-4">
+            <button
+              class="bg-blue-700 text-white hover:bg-indigo-900 px-12 py-4 rounded-full transition hover:translate-y-6"
+            >
+              HIRE ME
+            </button>
+            <button
+              class="border border-white text-white hover:bg-indigo-900 px-12 py-4 rounded-full transition hover:translate-y-6"
+            >
+              OUR PORTFOLIO
+            </button>
+          </div>
+        </div>
+        <div class="flex-1">
+          <img src="/images/hero_img.png" />
+        </div>
+      </div>
+    </div>
+    <!-- section Two -->
+    <div id="feature" class="mx-auto w-[1300px] py-8">
+      <h4 class="subtitle">FEATURES</h4>
+      <h2 class="title">What I Do</h2>
+      <div class="cards flex justify-between space-x-12 mt-5 items-center py-8">
+        <div class="card hover:translate-x-3 cursor-pointer">
+          <img src="/images/icons/service-1.png" />
+          <h4 class="text-white text-2xl font-semibold my-3">
+            App Development
+          </h4>
+          <p class="text-slate-50 font-light">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
+            velit eget neque ullamcorper, id sagittis lacus bibendum. Donec
+            sodales
+          </p>
+        </div>
+        <div class="card hover:translate-x-3 cursor-pointer">
+          <img src="/images/icons/service-1.png" />
+          <h4 class="text-white text-2xl font-semibold my-3">
+            Web Development
+          </h4>
+          <p class="text-slate-50 font-light">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
+            velit eget neque ullamcorper, id sagittis lacus bibendum. Donec
+            sodales
+          </p>
+        </div>
+        <div class="card hover:translate-y-3 cursor-pointer">
+          <img src="/images/icons/service-1.png" />
+          <h4 class="text-white text-2xl font-semibold my-3">
+            Full Stack Development
+          </h4>
+          <p class="text-slate-50 font-light">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
+            velit eget neque ullamcorper, id sagittis lacus bibendum. Donec
+            sodales
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- section Three -->
+    <div id="PORTFOLIO" class="w-[1300px] mx-auto py-16">
+      <h4 class="subtitle">MY JOBS</h4>
+      <h2 class="title">My PORTFOLIO</h2>
+      <div class="grid grid-cols-3 gap-6 mt-8">
+        <div class="port-1 bg-slate-900 h-[500px] rounded-2xl p-7 hover:translate-y-3 cursor-pointer">
+          <img class="rounded-lg" src="/images/portfolio/port_nft.jpg" />
+          <h4 class="text-white text-2xl my-2 font-semibold">
+            NFT Dashboard Application Development
+          </h4>
+          <p class="text-white text-sm">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+        <div class="port-2 bg-slate-900 h-[500px] rounded-2xl p-7 hover:translate-y-3 cursor-pointer">
+          <img class="rounded-lg" src="/images/portfolio/port_food.png" />
+          <h4 class="text-white text-2xl my-2 font-semibold">
+            Online Food Delivery Mobile App Development
+          </h4>
+          <p class="text-white text-sm">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+        <div class="port-3 bg-slate-900 h-[500px] rounded-2xl p-7 hover:translate-y-3 cursor-pointer">
+          <img class="rounded-lg" src="/images/portfolio/port_travel.jpg" />
+          <h4 class="text-white text-2xl my-2 font-semibold">
+            Travel App Design and Application Development
+          </h4>
+          <p class="text-white text-sm">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+        <div class="port-4 bg-slate-900 h-[500px] rounded-2xl p-7 hover:translate-y-3 cursor-pointer">
+          <img class="rounded-lg" src="/images/portfolio/port_workout.jpg" />
+          <h4 class="text-white text-2xl my-2 font-semibold">
+            Work Out Dashboard Design and Development
+          </h4>
+          <p class="text-white text-sm">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+        <div class="port-5 bg-slate-900 h-[500px] rounded-2xl p-7 hover:translate-y-3 cursor-pointer">
+          <img class="rounded-lg" src="/images/portfolio/port_landing.jpg" />
+          <h4 class="text-white text-2xl my-2 font-semibold">
+            Mobile Application Landing Page Design
+          </h4>
+          <p class="text-white text-sm">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+        <div class="port-6 bg-slate-900 h-[500px] rounded-2xl p-7 hover:translate-y-3 cursor-pointer">
+          <img class="rounded-lg" src="/images/portfolio/port_rest.jpg" />
+          <h4 class="text-white text-2xl my-2 font-semibold">
+            Resturent Mobile Application Development
+          </h4>
+          <p class="text-white text-sm">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- section four -->
+    <div id="PRICING" class="bg-slate-900 py-14">
+      <h4 class="subtitle">CHOOSE A PLAN</h4>
+      <h2 class="title">Get Started</h2>
+      <div
+        class="price flex justify-between space-x-8 items-center w-[1300px] mt-8 mx-auto"
+      >
+        <div class="flex-1 p-10 bg-slate-700 rounded-lg flex flex-col py-12">
+          <p class="text-white text-lg text-center">Starter</p>
+          <h3 class="text-7xl text-white font-bold leading-tight text-center">
+            $450
+          </h3>
+          <ul class="list-disc text-lg text-white ml-16 my-12">
+            <li>10,000 Visitors</li>
+            <li>Unlimited Widgets</li>
+            <li>All Widget Types</li>
+            <li>3rd Party Integration</li>
+            <li>Advanced Trgeting</li>
+            <li>Widget A/B Testing</li>
+          </ul>
+          <button class="bg-blue-700 px-14 py-5 text-white rounded-2xl hover:translate-y-3 ">
+            Get Started
+          </button>
+        </div>
+        <div class="flex-1 p-10 bg-blue-700 rounded-lg flex flex-col py-10">
+          <p class="text-white text-lg text-center">Pro</p>
+          <h3 class="text-7xl text-white font-bold leading-tight text-center">
+            $650
+          </h3>
+          <ul class="list-disc text-lg text-white ml-16 my-12">
+            <li>10,000 Visitors</li>
+            <li>Unlimited Widgets</li>
+            <li>All Widget Types</li>
+            <li>3rd Party Integration</li>
+            <li>Advanced Trgeting</li>
+            <li>Widget A/B Testing</li>
+          </ul>
+          <button class="bg-slate-700 px-14 py-5 text-white rounded-2xl hover:translate-y-3">
+            Get Started
+          </button>
+        </div>
+        <div class="flex-1 p-10 bg-slate-700 rounded-lg flex flex-col py-10">
+          <p class="text-white text-lg text-center">Enterprise</p>
+          <h3 class="text-7xl text-white font-bold leading-tight text-center">
+            $9,450
+          </h3>
+          <ul class="list-disc text-lg text-white ml-16 my-12">
+            <li>10,000 Visitors</li>
+            <li>Unlimited Widgets</li>
+            <li>All Widget Types</li>
+            <li>3rd Party Integration</li>
+            <li>Advanced Trgeting</li>
+            <li>Widget A/B Testing</li>
+          </ul>
+          <button class="bg-blue-700 px-14 py-5 text-white rounded-2xl hover:translate-y-3">
+            Get Started
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- section five -->
+    <div class="w-[1300px] mx-auto flex py-6 space-x-5 justify-between">
+      <img class="w-60" src="/images/logos/part1.png" />
+      <img class="w-60" src="/images/logos/part2.png" />
+      <img class="w-60" src="/images/logos/part3.png" />
+      <img class="w-60" src="/images/logos/part4.png" />
+    </div>
+    <!-- section six  -->
+    <div id="footer" class="bg-slate-900 h-[450px] flex items-center">
+      <div class="w-[1300px] mx-auto flex justify-between">
+        <img class="w-60 h-60 rounded-full" src="/images/profile_img.jpg" />
+       
+      <div>
+      <h4 class="text-white text-2xl">QUICK LINKS</h4>
+      <ul class="leading-8">
+        <li>
+            <a class="text-white hover:text-blue-300 text-lg font-light" href="#">About</a>
+          </li>
+        <li>
+            <a class="text-white hover:text-blue-300 text-lg font-light" href="#">Portfolio</a>
+          </li>
+        <li>
+            <a class="text-white hover:text-blue-300 text-lg font-light" href="#">Service</a>
+          </li>
+        <li>
+            <a class="text-white hover:text-blue-300 text-lg font-light" href="#">Blog</a>
+          </li>
+        <li>
+            <a class="text-white hover:text-blue-300 text-lg font-light" href="#">Contect</a>
+          </li>
+      </ul>
+    </div>
+      <div>
+      <h4 class="text-white text-2xl">RESOURCES</h4>
+      <ul class="leading-8">
+        <li>
+            <a class="text-white hover:text-blue-300 text-lg font-light" href="#">Authentication</a>
+          </li>
+        <li>
+            <a class="text-white hover:text-blue-300 text-lg font-light" href="#">System Status</a>
+          </li>
+        <li>
+            <a class="text-white hover:text-blue-300 text-lg font-light" href="#">Terms of services</a>
+          </li>
+        <li>
+            <a class="text-white hover:text-blue-300 text-lg font-light" href="#">Pricing</a>
+          </li>
+        <li>
+            <a class="text-white hover:text-blue-300 text-lg font-light" href="#">Over right</a>
+          </li>
+      </ul>
+    </div>
+      <div>
+      <h4 class="text-white text-2xl">DEVELOPERS</h4>
+      <ul class="leading-8">
+        <li>
+            <a class="text-white hover:text-blue-300 text-lg font-light" href="#">Documentation</a>
+          </li>
+        <li>
+            <a class="text-white hover:text-blue-300 text-lg font-light" href="#">Authentication</a>
+          </li>
+        <li>
+            <a class="text-white hover:text-blue-300 text-lg font-light" href="#">API Perference</a>
+          </li>
+        <li>
+            <a class="text-white hover:text-blue-300 text-lg font-light" href="#">Support</a>
+          </li>
+        <li>
+            <a class="text-white hover:text-blue-300 text-lg font-light" href="#">Open Source</a>
+          </li>
+      </ul>
+    </div>
+    </div>
+    </div>
+    <div class="bg-slate-950 p-5 text-center text-white text-lg">
+        <p>&copy; 2024. All rights reserved! ||Maryama🥰 || Tailwind Css</p>
+    </div>
+  </body>
+</html>
